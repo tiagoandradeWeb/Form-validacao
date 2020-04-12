@@ -1,0 +1,14 @@
+@font-face{
+	font-family: "Roboto"; /*Escolha um nome pra sua fonte*/
+	src: url(../fonts/Roboto-Regular.ttf); /*caminho para a fonte*/
+}
+
+.form{height:100vh; background: #03212D; position: relative;}
+.form-wrapper{width: 30%; padding: 40px 20px; background: #EFC307; position: relative;}
+.avatar{width: 100px; height: 100px; position:relative; top:-70px; left: 50%; transform: translate(-50%);}
+/*.img-thumbnail{border:2px solid #000!important; padding: 0;}*/
+.form-group label{color:#03212d!important;}
+.btn-submit{width: 100%; border: none; padding: 10px; background: #03212d; color: #fff; font-weight: 500; font-size: 1.3em; transition: all .5s;}
+.btn-submit:hover{background: #03213a;}
+.sent-success{color:green; text-align: center; opacity: 0; transition:all .8s;}
+.warnings{text-align: center; color: red; font-size: 0.9em; margin-top: 15px;}

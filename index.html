@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>Arquivo Padrão Bootstrap</title>
+</head>
+<body>
+<div class="form d-flex justify-content-center align-items-center">
+		<div class="form-wrapper">
+		<div class="avatar">
+			<img src="assets/img/avatar.png" alt="" class="img-thumbnail">
+		</div>
+			<form class="form_register">
+				<div class="form-group">
+					<label for="nome">Nome:</label>
+					<input type="text" class="form-control" id="nome">
+				</div>
+				<div class="form-group">
+					<label for="email:">E-mail:</label>
+					<input type="text" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label for="password">Senha:</label>
+					<input type="password" class="form-control" id="password">
+				</div>
+				<div class="form-group form-check">
+    				<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    				<label class="form-check-label" for="exampleCheck1">Lembrar Meus Dados</label>
+  				</div>
+  				<button type="submit" class="btn-submit">Cadastrar</button>
+  				<p class="warnings" id="warnings"></p>
+  				<p class="sent-success"><i class="fa fa-check" aria-hidden="true"></i>
+ Inscrição Realizada Com Sucesso</p>
+			</form>
+		</div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script><!--Jquery-->
+<script src="js/all.js"></script><!--Jquery-->
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/script.js"></script><!--Script Geral--> 
+<script>
+	new WOW().init();//iniciando o wow animation
+</script>   
+</body>
+</html>
